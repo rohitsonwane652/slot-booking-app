@@ -1,0 +1,49 @@
+.main{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .main{
+        display: block;
+    }
+}
+
+hr{
+    margin-top: 0px ;
+}
+
+.pay-button{
+    color: white;
+    background-color: #08254d;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.pay-button:hover{
+    color: white;
+}
+
+.sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    width: 100%;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.nav-items{
+    margin: 10px 20px 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #08254d;
+    padding: 15px 0px 15px 0px;
+    background-color: #e8f2ff;
+}
+
+.nav-link:hover{
+    color: #08254d;
+    background-color: #93bfff;
+}
